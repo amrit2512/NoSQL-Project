@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript"> 
+        function display_c(){
+            var refresh=1000;
+            mytime=setTimeout('display_ct()',refresh)
+        }
+        function display_ct() {
+            var x = new Date()
+            document.getElementById('subf2').innerHTML = x;
+            display_c();
+        }
+    </script>
+    <link rel="stylesheet" href="Footer1.css">
+</head>
+<body onload=display_ct();>
+    <div id="footer">
+        <div id="subf1">
+            Under:- Prof. Hari Kishan Kondaveeti 
+        </div>
+        <div id="subf2">
+            
+        </div>
+    </div>
+</body>
+</html>

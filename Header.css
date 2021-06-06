@@ -1,0 +1,39 @@
+#header{
+    display: flex;
+    flex-direction: column;
+}
+#sub1{
+    display: flex;
+    justify-content: center;
+    font-size: 9vh;
+    font-weight: bold;
+}
+#sub2{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+}
+#ssub2{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 3px;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 3vh;
+}
+#subh2{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 3px;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 3vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
