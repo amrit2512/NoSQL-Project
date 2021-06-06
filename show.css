@@ -1,0 +1,57 @@
+#a1{
+    width: 70vw;
+    min-height: 10vh;
+    max-height: 45vh;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: 5vh;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    background-image:  linear-gradient(to bottom right, rgba(224, 195, 252, 0.75) 0%, rgba(142, 197, 252, 0.75) 100%);
+}
+#container{
+    display: grid;
+    grid-template-rows: 15vh 82vh 3vh;
+    min-height: 100vh;
+    height: max-content;
+    width: 100vw;
+}
+#box1{
+    background-color: rgba(255, 255, 255, 0);
+}
+#box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#box3{
+    background-color: rgba(255, 255, 255, 0);
+}
+legend{
+    font-size: 15px;
+    border:2px solid black;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+}
+table{
+    width: 69vw;
+    text-align: center;
+}
+#MyMeetings, #UpcomingMeetings{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgba(255, 255, 255, 0);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
