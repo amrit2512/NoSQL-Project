@@ -16,7 +16,7 @@ session_start();
         </div>
         <div id="sub2">
             <div>
-                <a id="ssub2" href="Home.php">Home</a><a id="ssub2" href="Schedule_Meeting.php">Schedule Meeting</a><a id="ssub2" href="ShowMeetings.php"> Show Meetings</a>
+                <a id="ssub2" href="Home.php">Home</a><a id="ssub2" href="Schedule_Meeting.php">Schedule Meeting</a>
             </div>
             <div>
                 <span id="subh2">Hi,<?php echo " ".$_SESSION['Username'];?></span><a id="ssub2" href="LogOut.php">Logout</a>
